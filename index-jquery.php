@@ -45,9 +45,6 @@
   background-color:#eee;
   margin-top:2px;
 }
-#drop-down ul li:hover ul{
-  display:block;
-}
 
 </style>
 </head>
