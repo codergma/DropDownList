@@ -45,8 +45,19 @@
   background-color:#eee;
   margin-top:2px;
 }
-
 </style>
+<script src="jquery-1.11.3.js"></script>
+<script>
+$(function(){
+  $("#drop-down>ul>li").mouseover(function(){
+    $(this).children("ul").show();
+  });
+
+  $("#drop-down>ul>li").mouseout(function(){
+    $(this).children("ul").hide();
+  });
+});
+</script>
 </head>
 <body>
 <div id="drop-down">
