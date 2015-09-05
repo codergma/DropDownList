@@ -12,8 +12,9 @@
 	onmouseout
 	function
 	getElementsByTagName()
-
   jQuery方法实现
+    hide(),show(),
+	mouseover(),mouseout()
 
 第三步：浏览器兼容
 
